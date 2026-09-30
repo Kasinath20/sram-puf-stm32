@@ -1,5 +1,5 @@
 # SRAM PUF Key Generator on STM32H533 (NUCLEO-H533RE)
-
+**Documentation:** see [OPERATION_MANUAL.md](OPERATION_MANUAL.md) for setup, operation procedure and evaluation steps.
 A Physical Unclonable Function built from the power-up state of on-chip SRAM,
 with a data-driven cell-selection step and a fuzzy extractor that turns the noisy
 fingerprint into an exact 256-bit key. No key is stored in flash: only public
