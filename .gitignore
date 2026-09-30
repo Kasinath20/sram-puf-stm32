@@ -1,0 +1,15 @@
+# Real SRAM dumps are your chip's fingerprint - never publish them
+captures/
+captures_*/
+*.bin
+tests/work/
+
+# Python
+__pycache__/
+*.pyc
+
+# STM32CubeIDE build output / workspace
+Debug/
+Release/
+.metadata/
+*.launch
